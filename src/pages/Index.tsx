@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Brain, Shield, Database, BarChart } from 'lucide-react';
@@ -72,7 +71,7 @@ const Index = () => {
               Advanced Autism Spectrum Detection Through AI
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              empathiQ uses advanced machine learning to provide accurate, accessible autism spectrum assessments through intuitive Q&A interactions.
+              NeuroDetect uses advanced machine learning to provide accurate, accessible autism spectrum assessments through intuitive Q&A interactions.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link 
@@ -93,11 +92,16 @@ const Index = () => {
           
           <div className="relative max-w-5xl mx-auto">
             <div className="rounded-xl overflow-hidden shadow-xl border border-border/50 subtle-shadow">
-              <div className="aspect-video bg-gradient-to-tr from-secondary to-accent/20 flex items-center justify-center">
-                <div className="glass px-10 py-8 rounded-xl text-center">
+              <div className="aspect-video bg-gradient-to-tr from-secondary to-accent/20 flex flex-col items-center justify-center p-6">
+                <div className="glass px-10 py-8 rounded-xl text-center mb-6">
                   <h2 className="text-xl font-medium mb-2">Assessment Interface</h2>
                   <p className="text-sm text-muted-foreground">Interactive Q&A system with advanced analysis</p>
                 </div>
+                <img 
+                  src="/lovable-uploads/9ab59253-6238-4ccb-9cdb-8ac2954113d1.png" 
+                  alt="Autism top early signs infographic" 
+                  className="max-w-md w-full rounded-lg"
+                />
               </div>
             </div>
             <div className="absolute -right-4 -bottom-4 w-1/3 h-1/2 bg-gradient-to-tr from-primary/10 to-accent/30 rounded-xl -z-10"></div>
