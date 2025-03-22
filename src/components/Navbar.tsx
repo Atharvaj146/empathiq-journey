@@ -49,9 +49,9 @@ const Navbar: React.FC = () => {
           className="flex items-center space-x-2 text-primary font-semibold text-xl"
         >
           <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-            <span className="text-white text-sm font-bold">EQ</span>
+            <span className="text-white text-sm font-bold">AU</span>
           </div>
-          <span>empathiQ</span>
+          <span>AutismDetect</span>
         </Link>
 
         {/* Desktop Navigation */}

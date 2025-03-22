@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1 space-y-4">
             <Link to="/" className="flex items-center space-x-2 text-primary font-semibold text-xl">
               <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">EQ</span>
+                <span className="text-white text-sm font-bold">AU</span>
               </div>
-              <span>empathiQ</span>
+              <span>AutismDetect</span>
             </Link>
             <p className="text-sm text-muted-foreground pr-4">
               Advanced screening technology to help identify autism spectrum conditions through interactive assessments.
@@ -57,11 +57,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="mailto:contact@empathiq.ai" 
+                  href="mailto:contact@autismdetect.ai" 
                   className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center"
                 >
                   <Mail size={14} className="mr-2" />
-                  contact@empathiq.ai
+                  contact@autismdetect.ai
                 </a>
               </li>
               <li>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-muted-foreground mb-4 md:mb-0">
-            © {new Date().getFullYear()} empathiQ. All rights reserved.
+            © {new Date().getFullYear()} AutismDetect. All rights reserved.
           </p>
           
           <div className="flex items-center space-x-6">
